@@ -1,0 +1,2 @@
+/Users/imukulgehlot/Documents/FlutterDev/projectx/mine/lpu_campux/android/app/.cxx/RelWithDebInfo/5f2y183n/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/imukulgehlot/Documents/FlutterDev/projectx/mine/lpu_campux/android/app/.cxx/RelWithDebInfo/5f2y183n/arm64-v8a/CMakeFiles/rebuild_cache.dir

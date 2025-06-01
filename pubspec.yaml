@@ -1,0 +1,95 @@
+name: lpu_campux
+description: a brand new virtual campux
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.3 <4.0.0'
+
+dependencies:
+  # Flutter SDK
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  # Utils
+  device_info_plus: ^11.3.3
+  intl: ^0.19.0
+  flutter_screenutil: ^5.8.4
+  flutter_easyloading: ^3.0.5
+  logger: ^2.0.1
+  path_provider: ^2.0.14
+
+  # Network
+  connectivity_plus: ^6.1.0
+  cached_network_image: ^3.2.3
+  http: ^1.2.0
+  dio: ^5.3.2
+
+  # Navigation & Notification
+  auto_route: ^10.0.1
+  url_launcher: ^6.1.12
+  flutter_local_notifications: ^19.1.0
+  webview_flutter: ^4.2.4
+
+  # Media (Image, Permission, Video)
+  permission_handler: ^12.0.0+1
+  flutter_svg: ^2.0.9
+  image_picker: ^1.0.2
+  file_picker: ^10.1.2
+#  flutter_image_compress: ^2.4.0
+  readmore: ^3.0.0
+  syncfusion_flutter_pdfviewer: any
+  flutter_cache_manager: ^3.3.1
+
+  # State Management
+  get: ^4.7.2
+  get_storage: ^2.1.1
+
+
+  # Additional UI Elements (Toast, Popup, Addition Display)
+  fluttertoast: ^8.2.2
+  date_field: ^6.0.0
+
+  # Other UI Elements
+  flutter_animate: ^4.2.0+1
+  timeago: ^3.6.0
+  cropperx: ^1.1.1
+  carousel_slider: ^5.0.0
+  flutter_rating_bar: ^4.0.1
+  youtube_player_flutter: ^9.1.1
+  share_plus: ^11.0.0
+  path: ^1.9.1
+  photo_view: ^0.15.0
+  flutter_html: ^3.0.0
+
+
+#  flutter_launcher_icons: ^0.14.3
+#  flutter_native_splash: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Montserrat-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Montserrat-Semibold.ttf
+          weight: 600
+        - asset: assets/fonts/Montserrat-Bold.ttf
+          weight: 700
