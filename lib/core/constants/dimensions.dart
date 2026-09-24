@@ -4,13 +4,13 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import '../basic_features.dart';
 
 extension Dimension on double {
-  double get dynamicH => h;
+  double get dynamicH => this ;
 
-  double get dynamicW => w;
+  double get dynamicW => this;
 
-  double get dynamicSP => sp;
+  double get dynamicSP => this;
 
-  double get dynamicR => r;
+  double get dynamicR => this;
 }
 
 class Dimensions {

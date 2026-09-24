@@ -95,6 +95,7 @@ class AppUtils {
   //   return result!.path;
   // }
 
+
   static String getDuration(Duration duration) {
     final int hours = duration.inHours.toString().length;
     return duration.inHours > 0
